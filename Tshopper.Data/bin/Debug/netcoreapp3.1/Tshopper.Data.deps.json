@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Tshopper.Data/1.0.0": {
+        "dependencies": {
+          "Tshopper.Common": "1.0.0"
+        },
+        "runtime": {
+          "Tshopper.Data.dll": {}
+        }
+      },
+      "Tshopper.Common/1.0.0": {
+        "runtime": {
+          "Tshopper.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tshopper.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Tshopper.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
