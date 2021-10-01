@@ -30,6 +30,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tshopper.Client", "Tshopper
 		SlnRelativePath = "Tshopper.Client\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShopper.Worker", "TShopper.Worker\TShopper.Worker.csproj", "{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{3DA44A64-1CC7-43B2-870C-E0E927CA02C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA44A64-1CC7-43B2-870C-E0E927CA02C5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{3DA44A64-1CC7-43B2-870C-E0E927CA02C5}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
