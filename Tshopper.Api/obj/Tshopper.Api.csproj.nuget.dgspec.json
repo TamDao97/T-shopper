@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coderkechuyen\\Tshopper\\Tshopper\\Tshopper.Api.csproj": {}
+    "D:\\Coderkechuyen\\Tshopper\\Tshopper.Api\\Tshopper.Api.csproj": {}
   },
   "projects": {
-    "D:\\Coderkechuyen\\Tshopper\\Tshopper\\Tshopper.Api.csproj": {
+    "D:\\Coderkechuyen\\Tshopper\\Tshopper.Api\\Tshopper.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coderkechuyen\\Tshopper\\Tshopper\\Tshopper.Api.csproj",
+        "projectUniqueName": "D:\\Coderkechuyen\\Tshopper\\Tshopper.Api\\Tshopper.Api.csproj",
         "projectName": "Tshopper.Api",
-        "projectPath": "D:\\Coderkechuyen\\Tshopper\\Tshopper\\Tshopper.Api.csproj",
+        "projectPath": "D:\\Coderkechuyen\\Tshopper\\Tshopper.Api\\Tshopper.Api.csproj",
         "packagesPath": "C:\\Users\\tamdc\\.nuget\\packages\\",
-        "outputPath": "D:\\Coderkechuyen\\Tshopper\\Tshopper\\obj\\",
+        "outputPath": "D:\\Coderkechuyen\\Tshopper\\Tshopper.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
