@@ -22,32 +22,32 @@ namespace TShopper.Worker
             _serviceProvider = serviceProvider;
         }
 
-        //public override Task StartAsync(CancellationToken cancellationToken)
-        //{
-        //    _logger.LogInformation("Notification service is running...");
-        //    _cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
-        //    _excuteTask = ExecuteAsync(_cts.Token);
+        public override Task StartAsync(CancellationToken cancellationToken)
+        {
+            _logger.LogInformation("Notification service is running...");
+            _cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+            var _excuteTask = ExecuteAsync(_cts.Token);
 
-        //    return _excuteTask.IsCompleted ? _excuteTask : Task.CompletedTask;
-        //}
+            return _excuteTask.IsCompleted ? _excuteTask : Task.CompletedTask;
+        }
 
-        //public override async Task StopAsync(CancellationToken cancellationToken)
-        //{
-        //    if (_excuteTask == null)
-        //        return;
+        public override async Task StopAsync(CancellationToken cancellationToken)
+        {
+            if (_excuteTask == null)
+                return;
 
-        //    _cts.Cancel();
+            _cts.Cancel();
 
-        //    await Task.WhenAny(_excuteTask, Task.Delay(-1, cancellationToken));
-        //    cancellationToken.ThrowIfCancellationRequested();
-        //}
+            await Task.WhenAny(_excuteTask, Task.Delay(-1, cancellationToken));
+            cancellationToken.ThrowIfCancellationRequested();
+        }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
             while (!stoppingToken.IsCancellationRequested)
             {
                 await DoWork();
-                await Task.Delay(60000);
+                await Task.Delay(1000, stoppingToken);
             }
         }
 
