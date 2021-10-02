@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a6/VdeKN77BlfSkcxxSCL0X3X2n6VgdOGQGeCVq2OLMXzB/YLkqmVlMAYRWO5K1nmr6Hjh6JN4gxb2R341OqXA==",
+  "dgSpecHash": "don0w3MR1laKSVrn3sWjikzPAg6rZIhd6LPJokKsmgpzcQxXX60fBSIVAc2RHuro7CA1Z6vhaah8nmT7SRRm5w==",
   "success": true,
-  "projectFilePath": "D:\\Coderkechuyen\\Tshopper\\Tshopper\\Tshopper.Api.csproj",
+  "projectFilePath": "D:\\Coderkechuyen\\Tshopper\\Tshopper.Api\\Tshopper.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tamdc\\.nuget\\packages\\microsoft.aspnetcore.authentication.azuread.ui\\3.1.19\\microsoft.aspnetcore.authentication.azuread.ui.3.1.19.nupkg.sha512",
     "C:\\Users\\tamdc\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.19\\microsoft.aspnetcore.authentication.jwtbearer.3.1.19.nupkg.sha512",

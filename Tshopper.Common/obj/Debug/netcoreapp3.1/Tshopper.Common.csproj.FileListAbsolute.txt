@@ -1,7 +1,6 @@
 D:\Coderkechuyen\Tshopper\Tshopper.Common\bin\Debug\netcoreapp3.1\Tshopper.Common.deps.json
 D:\Coderkechuyen\Tshopper\Tshopper.Common\bin\Debug\netcoreapp3.1\Tshopper.Common.dll
 D:\Coderkechuyen\Tshopper\Tshopper.Common\bin\Debug\netcoreapp3.1\Tshopper.Common.pdb
-D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.csproj.AssemblyReference.cache
 D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.AssemblyInfoInputs.cache
 D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.AssemblyInfo.cs
 D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.csproj.CoreCompileInputs.cache

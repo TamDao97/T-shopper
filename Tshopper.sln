@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tshopper.Api", "Tshopper\Tshopper.Api.csproj", "{993459B6-B6C3-4413-A909-4E8C8FEA7271}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tshopper.Data", "Tshopper.Data\Tshopper.Data.csproj", "{DDC66498-B157-4A33-8792-95521CBED37B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tshopper.Common", "Tshopper.Common\Tshopper.Common.csproj", "{B4156E73-725E-4E76-AE43-85C45F4FDCEF}"
@@ -30,7 +28,9 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Tshopper.Client", "Tshopper
 		SlnRelativePath = "Tshopper.Client\"
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TShopper.Worker", "TShopper.Worker\TShopper.Worker.csproj", "{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TShopper.Worker", "TShopper.Worker\TShopper.Worker.csproj", "{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tshopper.Api", "Tshopper.Api\Tshopper.Api.csproj", "{5CA93AB5-EB30-4FCA-A9F4-ACBCAA9FA4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,10 +38,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{993459B6-B6C3-4413-A909-4E8C8FEA7271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{993459B6-B6C3-4413-A909-4E8C8FEA7271}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{993459B6-B6C3-4413-A909-4E8C8FEA7271}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{993459B6-B6C3-4413-A909-4E8C8FEA7271}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DDC66498-B157-4A33-8792-95521CBED37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DDC66498-B157-4A33-8792-95521CBED37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDC66498-B157-4A33-8792-95521CBED37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,6 +54,10 @@ Global
 		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B9829EB-83FA-4217-80F4-6932EBDC2DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA93AB5-EB30-4FCA-A9F4-ACBCAA9FA4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA93AB5-EB30-4FCA-A9F4-ACBCAA9FA4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA93AB5-EB30-4FCA-A9F4-ACBCAA9FA4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA93AB5-EB30-4FCA-A9F4-ACBCAA9FA4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
