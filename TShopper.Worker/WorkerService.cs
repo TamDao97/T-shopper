@@ -26,6 +26,7 @@ namespace TShopper.Worker
         {
             _logger.LogInformation("Notification service is running...");
             _cts = CancellationTokenSource.CreateLinkedTokenSource(cancellationToken);
+
             var _excuteTask = ExecuteAsync(_cts.Token);
 
             return _excuteTask.IsCompleted ? _excuteTask : Task.CompletedTask;
