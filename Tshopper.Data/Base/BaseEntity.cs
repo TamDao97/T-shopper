@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Tshopper.Data
+namespace Tshopper.Infrastructure
 {
     public class BaseEntity
     {

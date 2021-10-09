@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tshopper.Data
+namespace Tshopper.Infrastructure
 {
     [Table("SupplierDetail")]
     public class SupplierDetail

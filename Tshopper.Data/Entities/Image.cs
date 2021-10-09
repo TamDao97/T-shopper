@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Tshopper.Common;
 
-namespace Tshopper.Data
+namespace Tshopper.Infrastructure
 {
     [Table("Image")]
     public class Image : BaseEntity
@@ -20,9 +20,6 @@ namespace Tshopper.Data
         public ImageType Type { get; set; }
 
         [Required]
-        public Guid ProductId { get; set; }
-
-        [ForeignKey("ProductId")]
-        public virtual Product Product { get; set; }
+        public Guid ObjectId { get; set; }
     }
 }

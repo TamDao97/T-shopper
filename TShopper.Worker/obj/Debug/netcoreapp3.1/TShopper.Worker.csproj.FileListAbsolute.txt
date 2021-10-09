@@ -33,6 +33,7 @@ D:\Coderkechuyen\Tshopper\TShopper.Worker\bin\Debug\netcoreapp3.1\Microsoft.Exte
 D:\Coderkechuyen\Tshopper\TShopper.Worker\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Coderkechuyen\Tshopper\TShopper.Worker\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
 D:\Coderkechuyen\Tshopper\TShopper.Worker\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+D:\Coderkechuyen\Tshopper\TShopper.Worker\obj\Debug\netcoreapp3.1\TShopper.Worker.csproj.AssemblyReference.cache
 D:\Coderkechuyen\Tshopper\TShopper.Worker\obj\Debug\netcoreapp3.1\TShopper.Worker.AssemblyInfoInputs.cache
 D:\Coderkechuyen\Tshopper\TShopper.Worker\obj\Debug\netcoreapp3.1\TShopper.Worker.AssemblyInfo.cs
 D:\Coderkechuyen\Tshopper\TShopper.Worker\obj\Debug\netcoreapp3.1\TShopper.Worker.csproj.CoreCompileInputs.cache
