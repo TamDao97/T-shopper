@@ -1,0 +1,14 @@
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.csproj.AssemblyReference.cache
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.AssemblyInfoInputs.cache
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.AssemblyInfo.cs
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.csproj.CoreCompileInputs.cache
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.deps.json
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.dll
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.pdb
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.Common.dll
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.dll
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.pdb
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\bin\Debug\netcoreapp3.1\Tshopper.Common.pdb
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.csproj.CopyComplete
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.dll
+D:\Coderkechuyen\Tshopper\Tshopper.DataAcessLayer\obj\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.pdb

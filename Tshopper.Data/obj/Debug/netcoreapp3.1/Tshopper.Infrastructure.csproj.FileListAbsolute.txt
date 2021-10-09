@@ -1,0 +1,15 @@
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.csproj.AssemblyReference.cache
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.AssemblyInfoInputs.cache
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.AssemblyInfo.cs
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.deps.json
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.runtimeconfig.json
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.runtimeconfig.dev.json
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.dll
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.pdb
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Common.dll
+D:\Coderkechuyen\Tshopper\Tshopper.Data\bin\Debug\netcoreapp3.1\Tshopper.Common.pdb
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.csproj.CopyComplete
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.dll
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.pdb
+D:\Coderkechuyen\Tshopper\Tshopper.Data\obj\Debug\netcoreapp3.1\Tshopper.Infrastructure.genruntimeconfig.cache
