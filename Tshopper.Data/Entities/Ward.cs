@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tshopper.Data.Entities
+namespace Tshopper.Infrastructure
 {
     [Table("Ward")]
     public class Ward
@@ -20,6 +20,6 @@ namespace Tshopper.Data.Entities
         public Guid DistrictId { get; set; }
 
         [ForeignKey("DistrictId")]
-        public District District { get; set; }
+        public virtual District District { get; set; }
     }
 }

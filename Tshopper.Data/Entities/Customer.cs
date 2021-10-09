@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
-namespace Tshopper.Data.Entities
+namespace Tshopper.Infrastructure
 {
     [Table("Customer")]
     public class Customer : BaseEntity
@@ -37,12 +35,12 @@ namespace Tshopper.Data.Entities
         public Guid WardId { get; set; }
 
         [ForeignKey("ProvinceId")]
-        public Province Province { get; set; }
+        public virtual Province Province { get; set; }
 
         [ForeignKey("DistrictId")]
-        public District District { get; set; }
+        public virtual District District { get; set; }
 
         [ForeignKey("WardId")]
-        public Ward Ward { get; set; }
+        public virtual Ward Ward { get; set; }
     }
 }

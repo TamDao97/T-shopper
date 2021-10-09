@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tshopper.Data.Entities
+namespace Tshopper.Infrastructure
 {
     [Table("Province")]
     public class Province : BaseEntity
@@ -17,6 +17,6 @@ namespace Tshopper.Data.Entities
         [Required]
         public string Name { get; set; }
 
-        public ICollection<District> Districts { get; set; }
+        public virtual ICollection<District> Districts { get; set; }
     }
 }

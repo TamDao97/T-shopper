@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Tshopper.Data
+namespace Tshopper.Infrastructure
 {
     [Table("Supplier")]
     public class Supplier : BaseEntity

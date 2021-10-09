@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
-namespace Tshopper.Data.Entities
+namespace Tshopper.Infrastructure
 {
     [Table("District")]
     public class District : BaseEntity
@@ -21,8 +20,8 @@ namespace Tshopper.Data.Entities
         public Guid ProvinceId { get; set; }
 
         [ForeignKey("ProvinceId")]
-        public Province Province { get; set; }
+        public virtual Province Province { get; set; }
 
-        public ICollection<Ward> wards { get; set; }
+        public virtual ICollection<Ward> wards { get; set; }
     }
 }
