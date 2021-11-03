@@ -16,7 +16,7 @@ namespace Tshopper.Infrastructure.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.10")
+                .HasAnnotation("ProductVersion", "5.0.11")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
             modelBuilder.Entity("Tshopper.Infrastructure.Category", b =>
@@ -115,11 +115,7 @@ namespace Tshopper.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("DistrictId");
-
                     b.HasIndex("ProvinceId");
-
-                    b.HasIndex("WardId");
 
                     b.ToTable("Customer");
                 });
@@ -365,6 +361,24 @@ namespace Tshopper.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("CreatedByUserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("ModifiedByUserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("int");
+
                     b.Property<Guid>("ProductId")
                         .HasColumnType("uniqueidentifier");
 
@@ -390,12 +404,30 @@ namespace Tshopper.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<Guid>("CreatedByUserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateModified")
+                        .HasColumnType("datetime2");
+
                     b.Property<Guid>("DistrictId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<Guid>("ModifiedByUserId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Order")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -406,29 +438,13 @@ namespace Tshopper.Infrastructure.Migrations
 
             modelBuilder.Entity("Tshopper.Infrastructure.Customer", b =>
                 {
-                    b.HasOne("Tshopper.Infrastructure.District", "District")
-                        .WithMany()
-                        .HasForeignKey("DistrictId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Tshopper.Infrastructure.Province", "Province")
                         .WithMany()
                         .HasForeignKey("ProvinceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Tshopper.Infrastructure.Ward", "Ward")
-                        .WithMany()
-                        .HasForeignKey("WardId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("District");
-
                     b.Navigation("Province");
-
-                    b.Navigation("Ward");
                 });
 
             modelBuilder.Entity("Tshopper.Infrastructure.District", b =>

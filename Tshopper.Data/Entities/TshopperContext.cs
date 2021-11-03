@@ -4,11 +4,7 @@ namespace Tshopper.Infrastructure
 {
     public class TshopperContext : DbContext
     {
-        protected TshopperContext()
-        { }
-
-        public TshopperContext(DbContextOptions options) : base(options)
-        { }
+        public TshopperContext(DbContextOptions options) : base(options) { }
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
@@ -19,5 +15,11 @@ namespace Tshopper.Infrastructure
         public DbSet<Supplier> Suppliers { get; set; }
         public DbSet<SupplierDetail> SupplierDetails { get; set; }
         public DbSet<Ward> Wards { get; set; }
+
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    base.OnModelCreating(modelBuilder);
+        //    modelBuilder.Seed();
+        //}
     }
 }

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Tshopper.Infrastructure
 {
     [Table("Ward")]
-    public class Ward
+    public class Ward : BaseEntity
     {
         [Key]
         public Guid Id { get; set; }

@@ -7,3 +7,13 @@ D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Commo
 D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.csproj.CoreCompileInputs.cache
 D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.dll
 D:\Coderkechuyen\Tshopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Common\bin\Debug\netcoreapp3.1\Tshopper.Common.deps.json
+D:\Coderkechuyen\T-shopper\Tshopper.Common\bin\Debug\netcoreapp3.1\Tshopper.Common.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Common\bin\Debug\netcoreapp3.1\Tshopper.Common.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.csproj.AssemblyReference.cache
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.AssemblyInfoInputs.cache
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.AssemblyInfo.cs
+D:\Coderkechuyen\T-shopper\Tshopper.Common\obj\Debug\netcoreapp3.1\Tshopper.Common.csproj.CoreCompileInputs.cache

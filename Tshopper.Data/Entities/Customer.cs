@@ -36,11 +36,5 @@ namespace Tshopper.Infrastructure
 
         [ForeignKey("ProvinceId")]
         public virtual Province Province { get; set; }
-
-        [ForeignKey("DistrictId")]
-        public virtual District District { get; set; }
-
-        [ForeignKey("WardId")]
-        public virtual Ward Ward { get; set; }
     }
 }

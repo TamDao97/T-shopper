@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Tshopper.Common
+﻿namespace Tshopper.Common
 {
     public class Constant
     {

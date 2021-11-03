@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coderkechuyen\\Tshopper\\TShopper.Worker\\TShopper.Worker.csproj": {}
+    "D:\\Coderkechuyen\\T-shopper\\TShopper.Worker\\TShopper.Worker.csproj": {}
   },
   "projects": {
-    "D:\\Coderkechuyen\\Tshopper\\TShopper.Worker\\TShopper.Worker.csproj": {
+    "D:\\Coderkechuyen\\T-shopper\\TShopper.Worker\\TShopper.Worker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coderkechuyen\\Tshopper\\TShopper.Worker\\TShopper.Worker.csproj",
+        "projectUniqueName": "D:\\Coderkechuyen\\T-shopper\\TShopper.Worker\\TShopper.Worker.csproj",
         "projectName": "TShopper.Worker",
-        "projectPath": "D:\\Coderkechuyen\\Tshopper\\TShopper.Worker\\TShopper.Worker.csproj",
-        "packagesPath": "C:\\Users\\tamdc\\.nuget\\packages\\",
-        "outputPath": "D:\\Coderkechuyen\\Tshopper\\TShopper.Worker\\obj\\",
+        "projectPath": "D:\\Coderkechuyen\\T-shopper\\TShopper.Worker\\TShopper.Worker.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Coderkechuyen\\T-shopper\\TShopper.Worker\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tamdc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packagesource": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -61,18 +55,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.17, 3.1.17]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

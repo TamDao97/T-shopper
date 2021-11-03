@@ -1,0 +1,17 @@
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Business.deps.json
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Business.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Business.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Common.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.DataAcessLayer.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Common.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Business\bin\Debug\netcoreapp3.1\Tshopper.Infrastructure.pdb
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.csproj.AssemblyReference.cache
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.AssemblyInfoInputs.cache
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.AssemblyInfo.cs
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.csproj.CoreCompileInputs.cache
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.csproj.CopyComplete
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.dll
+D:\Coderkechuyen\T-shopper\Tshopper.Business\obj\Debug\netcoreapp3.1\Tshopper.Business.pdb
